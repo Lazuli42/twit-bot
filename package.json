@@ -1,0 +1,34 @@
+{
+  "name": "twit-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "js/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lazuli42/twit-bot.git"
+  },
+  "author": "\"Zach Baum & Anand Angalig\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lazuli42/twit-bot/issues"
+  },
+  "homepage": "https://github.com/Lazuli42/twit-bot#readme",
+  "dependencies": {
+    "twit": "^2.2.5",
+    "bower-files": "^3.14.1",
+    "browser-sync": "^2.17.2",
+    "browserify": "^13.1.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.3",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
